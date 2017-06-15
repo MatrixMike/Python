@@ -1,12 +1,14 @@
 #eg1
-shopping_list =["milk", "bread", "three"]
+shopping_list = ["milk", "bread", "three"]
+
 
 def show_list():
     print()
     print("list looks like this now=>")
     for item in shopping_list:
         print(item)
-        
+
+
 def check_list():
     if "eggs" not in shopping_list:
         print("Well we can't have that!")
@@ -22,8 +24,7 @@ if "milk" in shopping_list:
 show_list()
 
 
-        
-check_list()    
+check_list()
 print ("second try")
 check_list()
 # now to remove the bread
@@ -31,6 +32,3 @@ shopping_list.remove("bread")
 show_list()
 shopping_list.remove("water")
 show_list()
-
-
-
