@@ -1,3 +1,3 @@
 print ("hello Mike two")
 
-input ()
+input()
