@@ -1,4 +1,4 @@
-#eg3
+#eg3   on python3
 
 shopping_list =["milk", "bread", "three"]
 
