@@ -3,18 +3,15 @@ import turtle
 
 
 def line_without_moving():
-   turtle.forward(50)
-   turtle.angle(90)
+    turtle.forward(50)
+    turtle.angle(90)
 
 turtle.left(20)
 
-len=30
-angle=90
+len = 30
+angle = 90
 
-#print("cal ", 
-
-    
-
+#print("cal ",
 
 turtle.shape("turtle")
 
@@ -24,15 +21,15 @@ turtle.color("red")
 
 
 # Phyllis pattern
-size=50
-len=50
+size = 50
+len = 50
 turtle.color("red")
 
-while len > 0 :
-   turtle.forward(len)
-   turtle.right(90)
-   len=len-10
-   print(len)
+while len > 0:
+    turtle.forward(len)
+    turtle.right(90)
+    len = len-10
+    print(len)
 
 #input()
 turtle.color("green")
@@ -46,13 +43,8 @@ turtle.forward(200)
 
 turtle.color("blue")
 
-while len <= 50 :
-   turtle.forward(len)
-   turtle.right(-90)
-   len=len+10
-   print(len)
-
-   
-
-
-
+while len <= 50:
+    turtle.forward(len)
+    turtle.right(-90)
+    len = len+10
+    print(len)
