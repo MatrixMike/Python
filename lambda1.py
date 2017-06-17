@@ -7,6 +7,11 @@
 #
 #
 
+
+def hello1(name):
+
+    print("Hello", name)
+
 do_it = lambda f, *args: f(*args)
 hello = lambda first, last: print("Hello", first, last)
 do_all_funcs = lambda fns, *args: [list(map(fn, *args)) for fn in fns]
