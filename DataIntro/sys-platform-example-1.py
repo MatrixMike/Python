@@ -1,5 +1,5 @@
 # File:
-#sys-platform-example-1.py
+# sys-platform-example-1.py
 import sys
 #
 # emulate "import os.path" (sort of)...
@@ -13,5 +13,5 @@ else:
     # assume it's a posix platform
     import posixpath
     pathmodule = posixpath
-    
+
 print pathmodule
