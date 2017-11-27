@@ -44,4 +44,4 @@ class Fibonacci(Iterable):
 fib = Fibonacci()
 fib.running_sum()
 for _, i in zip(range(10), fib):
-    print(i, end=" ")
+    print(i, end = " ")

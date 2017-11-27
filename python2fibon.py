@@ -8,11 +8,13 @@
 # not yet working ...
 #
 #
-startNumber = int(raw_input("Enter the start number here "))
-endNumber = int(raw_input("Enter the end number here "))
+
 
 
 def main(args):
+    startNumber = int(raw_input("Enter the start number here "))
+#     endNumber   = int(raw_input("Enter the end number here "))
+    print startNumber, fib(startNumber)
 #    print map(fib, range(startNumber, endNumber))
     return 0
 
