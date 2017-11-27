@@ -15,11 +15,14 @@ def computeHCF(x, y):
 
     return hcf
 
-num1 = 54
-num2 = 24
+num1 = 621
+num2 = 774
 
 # take input from the user
 # num1 = int(input("Enter first number: "))
 # num2 = int(input("Enter second number: "))
 
 print("The H.C.F. of", num1, "and", num2, "is", computeHCF(num1, num2))
+# get AM radio frequencies
+# print("The H.C.F. of", num1, "and", num2, "is", computeHCF(num1, num2))
+# print("The H.C.F. of", num1, "and", num2, "is", computeHCF(num1, num2))
