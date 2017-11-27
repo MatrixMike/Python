@@ -1,0 +1,6 @@
+Sat Nov 25 07:09:35 AEDT 2017 
+
+documentation not very clear - seems to be derived from French source
+should use pep8 to standardise on layout / format
+some links create a loop ( to earlier doco ) 
+
