@@ -19,7 +19,7 @@ def get_primes():
         candidate += 1
 
 primes = get_primes()
-next(primes), next(primes), next(primes)
+print(next(primes), next(primes), next(primes))
 print(next(primes))
 
 for _, prime in zip(range(10), primes):
