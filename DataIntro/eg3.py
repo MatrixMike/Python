@@ -1,4 +1,4 @@
-#eg3   on python3
+# eg3   on python3
 
 shopping_list = ["milk", "bread", "three"]
 
@@ -31,5 +31,5 @@ check_list()
 # now to remove the bread
 shopping_list.remove("bread")
 show_list()
-#shopping_list.remove("water")
+# shopping_list.remove("water")
 show_list()

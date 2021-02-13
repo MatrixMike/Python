@@ -20,7 +20,7 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 #
-# when experimenting with pycompile errors are generated with end = " " and 
+# when experimenting with pycompile: errors are generated with end = " " and 
 # later with the from import arrangement
 # look harder for an example that will execute from .pyc code
 
@@ -44,7 +44,8 @@ class Fibonacci(Iterable):
     def running_sum(self):
         return self.total
 
+
 fib = Fibonacci()
 fib.running_sum()
 for _, i in zip(range(10), fib):
-    print(i, end = " ")
+    print(i, end=" ")

@@ -15,6 +15,7 @@ def computeHCF(x, y):
 
     return hcf
 
+
 num1 = 621
 num2 = 774
 

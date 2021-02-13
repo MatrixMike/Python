@@ -50,6 +50,7 @@ class ExpandingSequence(Sequence):
     def __len__(self):
         return len(self._cache)
 
+
 primes = ExpandingSequence(get_primes())
 for _, p in zip(range(10), primes):
     print(p, end=" ")
