@@ -23,6 +23,6 @@ print(next(primes), next(primes), next(primes))
 print(next(primes))
 
 for _, prime in zip(range(10), primes):
-    print(prime, end=" ")
-for _, prime in zip(range(10), primes):
-    print(prime, end=" ")
+    print(prime)
+# for _, prime in zip(range(10), primes):
+#     print(prime)
