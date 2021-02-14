@@ -1,6 +1,7 @@
 # print ("hi there")
 # mod 16.06.2017 13:15:54
-import turtle
+# import turtle
+
 
 def turt():
     turtle.left(20)
@@ -12,28 +13,29 @@ def turt():
     turtle.left(90)
     turtle.forward(100)
 
+
 for i in range(1, 30, 1):
-	turt()
-	
-	
-#turtle.left(20)
+    turt()
 
-#turtle.forward(100)
-#turtle.left(90)
-#turtle.forward(100)
-#turtle.left(90)
-#turtle.forward(100)
-#turtle.left(90)
-#turtle.forward(100)
 
-#turtle.left(20)
+# turtle.left(20)
 
-#turtle.forward(100)
-#turtle.left(90)
-#turtle.forward(100)
-#turtle.left(90)
-#turtle.forward(100)
-#turtle.left(90)
-#turtle.forward(100)
+# turtle.forward(100)
+# turtle.left(90)
+# turtle.forward(100)
+# turtle.left(90)
+# turtle.forward(100)
+# turtle.left(90)
+# turtle.forward(100)
 
-#turtle.exitonclick()
+# turtle.left(20)
+
+# turtle.forward(100)
+# turtle.left(90)
+# turtle.forward(100)
+# turtle.left(90)
+# turtle.forward(100)
+# turtle.left(90)
+# turtle.forward(100)
+
+# turtle.exitonclick()

@@ -18,6 +18,7 @@ def get_primes():
             found.append(candidate)
         candidate += 1
 
+
 primes = get_primes()
 print(next(primes), next(primes), next(primes))
 print(next(primes))
