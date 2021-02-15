@@ -30,5 +30,5 @@ check_list()
 # now to remove the bread
 shopping_list.remove("bread")
 show_list()
-shopping_list.remove("water")
+shopping_list.remove("eggs")
 show_list()
