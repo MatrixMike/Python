@@ -4,13 +4,11 @@
 #  lambda1.py
 #	20.06.2017 03:16:17
 #  Copyright 2017 Michael Hewitt <mikeh@electroteach.com>
+# revived 5/2/2022
 #
-#
-
 
 def hello1(name):
     print("Hello", name)
-
 
 hello1('David')
 
